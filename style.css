@@ -15,7 +15,7 @@ h2 {
     margin: 10px;
     color: black;
 }
-.button1:hover >p{
+.Partners:hover >p{
 position: relative;
 background-color:red;
 text-align: center;
