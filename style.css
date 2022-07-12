@@ -1,23 +1,11 @@
-@media(min-width: 768px) and (max-width: 1200px)
-
-h1 {
-color: green;
-position: absolute;
-text-align: center;
-}
-body{
-    background-color:white;
-}
-h2 {
-    background-color: rgb(112, 200, 188);
-    width: 200px;
-    height: 40px;
+ *{
+    margin: 0%;
+    padding: 0;
+ }
+ @media(min-width: 768px) and (max-width: 1200px)
+.foot{
+    background-color: yellow;
+    position: center;
     margin: 10px;
-    color: black;
-}
-.h2:hover >p{
-position: relative;
-background-color:red;
-text-align: center;
-
+    background-image: url(http://www.bayrische-fussball-akademie.de/wp-content/uploads/2020/09/3_.jpg)
 }
