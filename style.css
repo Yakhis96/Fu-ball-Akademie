@@ -1,11 +1,19 @@
  *{
     margin: 0%;
     padding: 0;
+    background-color: aqua;
  }
- @media(min-width: 768px) and (max-width: 1200px)
-.foot{
-    background-color: yellow;
-    position: center;
-    margin: 10px;
-    background-image: url(http://www.bayrische-fussball-akademie.de/wp-content/uploads/2020/09/3_.jpg)
+
+
+.alte{
+    display: none;
+}
+
+.feriencamp:hover .alte{
+    display:block;
+}
+
+.feriencamp{
+    width: 30px;
+    height: 30px;
 }
